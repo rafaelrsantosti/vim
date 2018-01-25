@@ -1,4 +1,5 @@
 ```
-$ git clone https://github.com/rafaelrsantosti/vim.git ~/.vim/
-$ vim +PlugInstall +qall
+$ git clone https://github.com/rafaelrsantosti/vim.git
+$ cd vim && chmod +x install.sh
+$ ./install.sh
 ```
