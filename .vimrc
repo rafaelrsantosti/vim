@@ -5,6 +5,11 @@ let g:snips_author = "rafaelrsantosti"
 let g:molokai_original = 1
 colorscheme molokai
 
+"" Replace all tabs with spaces
+set tabstop=1
+set shiftwidth=1
+set expandtab
+
 "" Enable line number
 set number
 
