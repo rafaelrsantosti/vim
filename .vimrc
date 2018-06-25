@@ -5,6 +5,9 @@ let g:snips_author = "rafaelrsantosti"
 let g:molokai_original = 1
 colorscheme molokai
 
+"" Allow backspacing over everything in insert mode
+set backspace=indent,eol,start
+
 "" Replace all tabs with spaces
 set tabstop=1
 set shiftwidth=1
